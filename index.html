@@ -2,9 +2,11 @@
 <html lang="fr" ng-app="appComm">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="assets/js/main.js"></script>
@@ -15,5 +17,164 @@
     <div ng-view></div>
   </div>
 <script></script>
+  <header>
+    <!-- Pour crée un jumbotron pour l'accueil du site avec sont nom -->
+    <div class="jmt container-fluid">
+      <div class="jmb jumbotron">
+        <div><img class="Ilemage" src="assets/img/Ile.png" alt=""></div>
+        <div>
+          <h2 class="tr text-center display-4"><span><img class="Iimage" src="assets/img/palmier.png" alt=""></span>le BnB</h2>
+          <p class="lead text-center">Une île pas que flotante</p>
+        </div>
+      </div>
+      <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    </div>
+  </header>
+  <main>
+    <div id="sideNavigation" class="text-white sidenav">
+      <a href="javascript:void(0)" class="text-white closebtn" onclick="closeNav()">&times;</a>
+      <h4 class="text-center text-white">Les Océans</h4>
+      <hr>
+      <div>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1"></label>
+          </div>
+          Océan Pacifique
+        </p>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+            <label class="form-check-label" for="inlineCheckbox2"></label>
+          </div>
+          Océan Atlantique
+        </p>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
+            <label class="form-check-label" for="inlineCheckbox3"></label>
+          </div>
+          Océan Indien
+        </p>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
+            <label class="form-check-label" for="inlineCheckbox4"></label>
+          </div>
+          Océan Antarctique
+        </p>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
+            <label class="form-check-label" for="inlineCheckbox5"></label>
+          </div>
+          Océan Arctique
+        </p>
+      </div>
+      <hr class="hr">
+      <h4 class="text-center text-white">Type D'Île</h4>
+      <div>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option1">
+            <label class="form-check-label" for="inlineCheckbox6"></label>
+          </div>
+          Îles Vierges
+        </p>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option1">
+            <label class="form-check-label" for="inlineCheckbox7"></label>
+          </div>
+          Îles avec constructions
+        </p>
+        <p class="p">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option1">
+            <label class="form-check-label" for="inlineCheckbox8"></label>
+          </div>
+          Île gourmande
+        </p>
+      </div>
+    </div>
+
+    <nav class="topnav">
+      <a href="#" onclick="openNav()">
+        <img id="flc" src="assets/img/fleche.png" alt="">
+      </a>
+    </nav>
+
+    <div id="main">
+      <!-- Add all your websites page content here  -->
+    </div>
+  </main>
+  <footer class="mt-5 backgr text-white">
+    <div class=" container-fluid row">
+      <div class="footer">
+        <h1>SERVICES ET GARANTIES</h1>
+        <p>Garanties et assurances</p>
+        <p>Suivi de commande par SMS</p>
+        <p>Mon Service Client</p>
+        <p>Engagements</p>
+      </div>
+      <div class=" footer">
+        <h1>LIVRAISON & PAIEMENT</h1>
+        <p>Les modes et frais de livraison</p>
+        <p>Livraison à l'international</p>
+        <p>Livraison en Europe</p>
+        <p>Les moyens de paiement</p>
+        <p>Paiement sécurisé</p>
+        <img src="assets/img/Paypal.png" id="paid" alt="">
+        <img src="assets/img/Mastercard.png"id="paid" alt="">
+        <img src="assets/img/visa.png" id="paid" alt="">
+      </div>
+      <div class=" footer">
+        <h1 >CONTACTEZ-NOUS</h1>
+        <p>Contact Service Client</p>
+        <p>Contact Publicité</p>
+        <p>I-Watch recrute</p>
+        <p>Contact Professionnels</p>
+        <p>Affiliation</p>
+        <p>Notifier un contenu illicite</p>
+        <p>Le Lab by I-Watch</p>
+      </div>
+
+
+      <div class="footer">
+        <h1>INFORMATIONS LEGALES</h1>
+        <p>Conditions Générales de Vente</p>
+        <p>Conditions Générales d’Utilisation Marketplace</p>
+        <p>Référencement et classement des offres</p>
+        <p>Protection de la vie privée et cookies</p>
+        <p>Mentions légales</p>
+      </div>
+      <div class=" footer">
+        <h1>Implanté partout dans le monde</h1>
+        <img src="assets/img/spain.png"id="flag" class="mb-5">
+        <img src="assets/img/germany.png"id="flag" class="mb-5">
+        <img src="assets/img/italy.png"id="flag" class="mb-5">
+        <img src="assets/img/netherlands.png"id="flag" class="mb-5">
+        <img src="assets/img/russia.png"id="flag" class="mb-5">
+        <img src="assets/img/united-kingdom.png"id="flag" class="mb-5">
+        <img src="assets/img/canada.png"id="flag" class="mb-5">
+        <img src="assets/img/japan.png"id="flag" class="mb-5">
+        <img src="assets/img/south-korea.png"id="flag" class="mb-5">
+        <img src="assets/img/united-states.png"id="flag" class="mb-5">
+      </div>
+      <div class="footer">
+        <h1>Rejoignez-nous sur</h1>
+        <img src="assets/img/fb.png"id="reseaux3" alt="">
+        <img src="assets/img/twitter.png" id="reseaux2" alt="">
+        <img src="assets/img/instagram.png"id="reseaux" alt="">
+      </div>
+    </div>
+    <div class="container-fluid text-center col">
+      © 2019, Île BnB Corporation
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
