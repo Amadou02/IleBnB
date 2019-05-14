@@ -1,33 +1,33 @@
 [
 	{
 		"id": 0,
-		"nom": "",
-		"lieu": "",
-		"prix": "",
-		"taille": "",
-		"img1": "",
-		"img2": "",
+		"nom": "Viti Levu",
+		"lieu": "Ile du Pacifique",
+		"prix": "12.447.923€",
+		"taille": "10 388 km2",
+		"img1": "assets/img/VitiLevu.jpg",
+		"img2": "assets/img/VitiLevu2.jpg",
 		"img3": "",
-		"descCourte": "",
-		"descLong": "",
-		"habitable": "",
-		"Nationalité": "",
-		"surfHab": ""
+		"descCourte": "Viti Levu, toponyme tongien signifiant littéralement en français « grande Viti ». Elle a une superficie de 10 388 km2, soit l'équivalent de la taille du Liban",
+		"descLong": "Le centre de Viti Levu, plus montagneux, culmine à 1 324 m d'altitude (mont Tomanivi). Isolé et d'accès plus difficile, les routes n'y sont que rarement goudronnées et peu praticables durant la saison des pluies. Le mode de vie y est plus traditionnel, le cheval restant le moyen de transport le plus usité. Elle est également la base de départ vers les îles de l’archipel de Yasawa qui concentrent les principales infrastructures touristiques",
+		"amménagé": "Oui",
+		"Nationalité": "Américaine",
+		"surfHab": "10 000 km2"
 	},
 	{
 		"id": 1,
-		"nom": "",
-		"lieu": "",
-		"prix": "",
-		"taille": "",
-		"img1": "",
-		"img2": "",
+		"nom": "Saipan",
+		"lieu": "Ile du Pacifique",
+		"prix": "16,543,450€",
+		"taille": "417,89 km2",
+		"img1": "assets/img/Saipan.jpg",
+		"img2": "assets/img/Saipan2.jpg",
 		"img3": "",
-		"descCourte": "",
-		"descLong": "",
-		"habitable": "",
-		"Nationalité": "",
-		"surfHab": ""
+		"descCourte": "Saipan, est la plus grande des îles du Commonwealth des îles Mariannes du Nord rattachées aux États-Unis",
+		"descLong": "Elle se distingue par sa côte sableuse et ses paysages montagneux. On y trouve plusieurs parcours de golf de championnat. Son point culminant est le mont Tapochau, qui s'élève à 1 555 pi, un sommet calcaire au centre de l'île. À proximité de l'extrémité nord, des mémoriaux japonais sont installés sur les falaises Banzai Cliff et Suicide Cliff",
+		"amménagé": "Oui",
+		"Nationalité": "Américaine",
+		"surfHab": "115,39 km2"
 	},
 	{
 		"id": 2,
@@ -40,7 +40,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -55,7 +55,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -70,7 +70,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -85,7 +85,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -100,7 +100,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -115,7 +115,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -130,7 +130,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -145,7 +145,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -160,7 +160,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -175,7 +175,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -190,7 +190,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -205,7 +205,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -220,7 +220,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -235,7 +235,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	},
@@ -250,7 +250,7 @@
 		"img3": "",
 		"descCourte": "",
 		"descLong": "",
-		"habitable": "",
+		"amménagé": "",
 		"Nationalité": "",
 		"surfHab": ""
 	}
