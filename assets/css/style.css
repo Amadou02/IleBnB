@@ -1,1 +1,14 @@
-/* test */
+.card
+{
+  height: 25em;
+  cursor: pointer;
+}
+
+.img-fluid
+{
+  /* border-radius: 10px; */
+}
+
+#mainImg{
+  width: 35em;
+}

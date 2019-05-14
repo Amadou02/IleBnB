@@ -1,0 +1,19 @@
+<!-- partials/articles.html -->
+<section ng-controller="articleCtrl">
+    <div class="row">
+      <!-- ng-repeat se répétera pour chaque élément du JSON  -->
+      <div class="col-3 my-2" ng-repeat="x in id">
+        <a href="#!/detail/{{$index}}">
+        <div class="card element">
+          <img class="card-img-top h-50" src="{{x.img1}}" alt="{{x.nom}}"></img>
+          <div class="card-body h-50">
+            <p class="card-text">{{x.descCourte}}</p>
+          </div>
+          <div class="card-footer">
+            <span class="card-text">Prix : {{x.prix}}</span>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+</section>
