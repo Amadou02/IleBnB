@@ -2,7 +2,7 @@
 <section>
     <div class="row">
       <!-- ng-repeat se répétera pour chaque élément du JSON  -->
-      <div class="col-3 my-2" ng-repeat="x in element">
+      <div class="col-sm-12 col-md-6 col-lg-3 my-2" ng-repeat="x in element">
         <a href="#!/detail/{{x.id}}" ng-click="clickMe()">
         <div class="card">
           <img class="card-img-top h-50" src="{{x.img1}}" alt="{{x.nom}}"></img>

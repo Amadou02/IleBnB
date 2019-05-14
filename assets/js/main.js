@@ -47,8 +47,6 @@ eCommApp.controller('articleCtrl', function($scope, $rootScope, $http) {
 // Création d'un controller 'articleCtrl'
 eCommApp.controller('detailCtrl',function($rootScope,$scope,$routeParams){
 
-  $scope.
-
   // je récupère le parametre indiqué dans la route (c'est l'index de mes tableaux)
   // $scope.id=$routeParams.id;
   // //je recupère les varialbles dans les tableaux correspondants, à l'index 'id'
@@ -81,3 +79,4 @@ function openNav() {
 function closeNav() {
     document.getElementById("sideNavigation").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
+}

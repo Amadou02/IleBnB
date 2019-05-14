@@ -158,7 +158,9 @@ h4{
 /* fin du menu drop right */
 #flc{
   height: 30px;
-  margin-top: 125px;
+  /* margin-top: 125px; */
+  /* z-index: 1; */
+  /* position: absolute; */
 }
 .footer{
     font-size: 10px;
