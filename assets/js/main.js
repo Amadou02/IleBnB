@@ -2,21 +2,6 @@ var eCommApp = angular.module('appComm', ['ngRoute']);
 
 //au demarrage de mon appli
 eCommApp.run(function($rootScope, $http){
-    //Init des tableaux
-    // $rootScope.idList=[];
-    // $rootScope.nomList=[];
-    // $rootScope.lieuList=[];
-    // $rootScope.prixList=[];
-    // $rootScope.tailleList=[];
-    // $rootScope.img1List=[];
-    // $rootScope.img2List=[];
-    // $rootScope.img3List=[];
-    // $rootScope.descCourteList=[];
-    // $rootScope.descLongList=[];
-    // $rootScope.amménagéList=[];
-    // $rootScope.NationalitéList=[];
-    // $rootScope.surfHabList=[];
-
     $http.get("articles.json")
     .then(function(response) {
       // reponse.data correspond au données du JSON et le renvoi dans la variable 'element'
@@ -61,7 +46,10 @@ eCommApp.controller('detailCtrl',function($rootScope,$scope,$http,$routeParams){
   $scope.prix = $scope.element[$scope.id].prix;
   $scope.taille = $scope.element[$scope.id].taille;
   $scope.img1 = $scope.element[$scope.id].img1;
+  $scope.img2 = $scope.element[$scope.id].img2;
+  $scope.img3 = $scope.element[$scope.id].img3;
   $scope.descCourte = $scope.element[$scope.id].descCourte;
+  $scope.descLong = $scope.element[$scope.id].descLong;
   $scope.ammenage = $scope.element[$scope.id].ammenage;
   $scope.Nationalite = $scope.element[$scope.id].Nationalite;
 
