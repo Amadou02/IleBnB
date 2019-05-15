@@ -10,7 +10,7 @@
 		"img3": "assets/img/VitiLevu3.jpg",
 		"descCourte": "Viti Levu, toponyme tongien signifiant littéralement en français « grande Viti ». Elle a une superficie de 10 388 km2, soit l'équivalent de la taille du Liban",
 		"descLong": "Le centre de Viti Levu, plus montagneux, culmine à 1 324 m d'altitude (mont Tomanivi). Isolé et d'accès plus difficile, les routes n'y sont que rarement goudronnées et peu praticables durant la saison des pluies. Le mode de vie y est plus traditionnel, le cheval restant le moyen de transport le plus usité. Elle est également la base de départ vers les îles de l’archipel de Yasawa qui concentrent les principales infrastructures touristiques",
-		"ammenage": "Oui",
+		"ammenage": "Construction",
 		"Nationalite": "Américaine",
 		"surfHab": "10 000 km²"
 	},
@@ -25,7 +25,7 @@
 		"img3": "assets/img/Saipan3.jpg",
 		"descCourte": "Saipan, est la plus grande des îles du Commonwealth des îles Mariannes du Nord rattachées aux États-Unis",
 		"descLong": "Elle se distingue par sa côte sableuse et ses paysages montagneux. On y trouve plusieurs parcours de golf de championnat. Son point culminant est le mont Tapochau, qui s'élève à 1 555 pi, un sommet calcaire au centre de l'île. À proximité de l'extrémité nord, des mémoriaux japonais sont installés sur les falaises Banzai Cliff et Suicide Cliff",
-		"ammenage": "Oui",
+		"ammenage": "Construction",
 		"Nationalite": "Américaine",
 		"surfHab": "115,39 km²"
 	},
@@ -40,7 +40,7 @@
 		"img3": "assets/img/Upolu3.jpg",
 		"descCourte": "Upolu, d'une superficie de 1 125 km2, est la plus petite des deux îles principales des Samoa",
 		"descLong": "Upolu est la plus petite des deux îles principales des Samoa, au large de l'Australie dans l'océan Pacifique. Le point culminant de l'île, le Mont Fito, constitue le sommet du volcan qui forme l'île",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Américaine",
 		"surfHab": "1 125 km²"
 	},
@@ -55,7 +55,7 @@
 		"img3": "assets/img/Molokai3.jpg",
 		"descCourte": "Molokai est la cinquième île de l'archipel d'Hawaï, une superficie de 673 km2 et un littoral de 171 kilomètres de longueur",
 		"descLong": "Molokai se situe à 14,4 km au nord-ouest de l'île de Maui et à 42 km à l'est-sud-est de Oahu. Son point le plus élevé est le Kamakou, culminant à 1 515 mètres d'altitude. Les plus hautes falaises du monde se trouvent à Umilehi Point, elles atteignent 1 005 mètres au-dessus de l'océan Pacifique.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Américaine",
 		"surfHab": "500 km²"
 	},
@@ -70,7 +70,7 @@
 		"img3": "assets/img/Tenerife3.jpg",
 		"descCourte": "Tenerife, est une île d'Espagne faisant partie de l'archipel des îles Canaries, situées dans l'océan Atlantique.",
 		"descLong": "Tenerife, est une île d'Espagne faisant partie de l'archipel des îles Canaries, situées dans l'océan Atlantique. Il s'agit de la plus grande île de cet archipel mais aussi de la plus haute, le Teide constituant le point culminant de l'Espagne avec 3 718 mètres d'altitude. Tenerife est également l'île la plus étendue et la plus peuplée de la Macaronésie2. ",
-		"ammenage": "Oui",
+		"ammenage": "Construction",
 		"Nationalite": "Espagnole",
 		"surfHab": "2 000 km²"
 	},
@@ -85,7 +85,7 @@
 		"img3": "assets/img/Lanzarote3.jpg",
 		"descCourte": "Lanzarote, est une île d'Espagne située dans l'océan Atlantique.",
 		"descLong": "Lanzarote, est une île d'Espagne située dans l'océan Atlantique et faisant partie des îles Canaries. Peuplée de 142 517 habitants, elle est la troisième plus peuplée des îles Canaries après Tenerife et Grande Canarie2. Couvrant une superficie de 845,94 km2, elle est la quatrième plus grande île de l'archipel. Arrecife est le siège du cabildo insulaire. ",
-		"ammenage": "Oui",
+		"ammenage": "Construction",
 		"Nationalite": "Espagnole",
 		"surfHab": "505,36 km²"
 	},
@@ -100,7 +100,7 @@
 		"img3": "assets/img/Gough3.jpg",
 		"descCourte": "L'île Gough, est une des îles de l'archipel britannique Tristan da Cunha, située sur les quarantièmes rugissants dans l'Atlantique Sud.",
 		"descLong": "Elle se trouve sur les quarantièmes rugissants, à 398 km au sud-sud-est de l'île Tristan da Cunha et est l'île la plus éloignée de l'archipel. Elle se situe à 2 610 km du Cap (Afrique du Sud), à 2 720 km au sud de Sainte-Hélène et à 3 554 km du point le plus proche d'Amérique du Sud (dans l'État de Rio de Janeiro, au Brésil). Île d'origine volcanique, elle émerge à plus de 900 mètres au-dessus du niveau de la mer et a une superficie d'environ 65 km2. Elle fait 13 km de long sur 7 km de large. Du fait de sa position, elle reçoit plus 2 540 mm de précipitations par an.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Anglaise",
 		"surfHab": "80 km²"
 	},
@@ -115,7 +115,7 @@
 		"img3": "assets/img/Gomera3.jpg",
 		"descCourte": "La Gomera est l'une des sept îles principales des Canaries. Elle est située dans l'océan Atlantique à l'ouest de l'archipel",
 		"descLong": "La Gomera est une île située dans l'ouest des îles Canaries, archipel de l'océan Atlantique. Elle avoisine Tenerife à l'est, El Hierro au sud-ouest et La Palma au nord-ouest. La Gomera est une des plus petites des îles Canaries avec une superficie de 372 km2",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Espagnole",
 		"surfHab": "300 km²"
 	},
@@ -130,7 +130,7 @@
 		"img3": "assets/img/Barren3.jpg",
 		"descCourte": "L'île Barren (l'« île stérile ») est une petite île volcanique de l'océan Indien",
 		"descLong": "L'île porte le seul volcan actif de l'Asie du Sud-Est et est située à 133 kilomètres au sud-sud-ouest de l'île Narcondam, qui abrite un volcan endormi. Barren appartient à un arc volcanique qui s'étend du nord de Sumatra au territoire birman (Myanmar). Le stratovolcan qui l'occupe émerge des fonds océaniques et atteint l'altitude modeste de 354 mètres, mais l'essentiel de la montagne est situé au-dessous du niveau de la mer dont les fonds atteignent une profondeur de 2 250 mètres",
-		"ammenage": "Oui",
+		"ammenage": "Construction",
 		"Nationalite": "Indienne",
 		"surfHab": "5 km²"
 	},
@@ -145,7 +145,7 @@
 		"img3": "assets/img/Inhaca3.jpg",
 		"descCourte": "Inhaca Island est une île subtropicale du Mozambique située au large de la côte est africaine",
 		"descLong": "Inhaca Island est une île subtropicale du Mozambique située au large de la côte est africaine. L'île de 52 km² sépare la baie de Maputo à l'ouest de l'océan Indien au large de ses rives orientales.",
-		"ammenage": "Oui",
+		"ammenage": "Construction",
 		"Nationalite": "Africaine",
 		"surfHab": "45 km²"
 	},
@@ -160,7 +160,7 @@
 		"img3": "assets/img/Tromelin3.jpg",
 		"descCourte": "L'île Tromelin est une île française de l'ouest de l'océan Indien",
 		"descLong": "L'île Tromelin est située à 436 kilomètres à l'est de Madagascar et à 561 kilomètres au nord de l'île de La Réunion. Elle est entourée de fonds marins de 4 000 mètres de profondeur. Il n'a pas encore été clairement défini si elle constitue le sommet émergé d'un volcan sous-marin ou s'il s'agit d'un atoll surélevé.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Française",
 		"surfHab": "1 km²"
 	},
@@ -175,14 +175,14 @@
 		"img3": "assets/img/Weh3.jpg",
 		"descCourte": "Weh est une île située à la pointe nord de l'île indonésienne de Sumatra",
 		"descLong": "L'île se dresse dans la mer d'Andaman, à la limite entre les grandes profondeurs de l'océan Indien à l'ouest et les eaux peu profondes du détroit de Malacca à l'est. De nature volcanique, elle appartient à la même chaîne d'îles que les Andaman et les Nicobar au nord.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Indonésienne",
 		"surfHab": "15 km²"
 	},
 	{
 		"id": 12,
 		"nom": "Deception",
-		"lieu": "Antarctique",
+		"lieu": "Océan Antartique",
 		"prix": 34567430,
 		"taille": "72 km²",
 		"img1": "assets/img/Deception.jpg",
@@ -190,14 +190,14 @@
 		"img3": "assets/img/Deception3.jpg",
 		"descCourte": "L’île de la Déception est une île de l'archipel des îles Shetland du Sud.",
 		"descLong": "L'île a une forme arrondie, avec un diamètre maximum de 12 km. Son point le plus élevé est un mont non nommé de 576 m. Une grande baie, Port Foster, se trouve au centre de l'île ; mesurant 9 km de long sur 6 km de large, elle occupe la majorité du centre de l'île.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Argentine",
 		"surfHab": "65 km²"
 	},
 	{
 		"id": 13,
 		"nom": "Ross",
-		"lieu": "Antarctique",
+		"lieu": "Océan Antartique",
 		"prix": 678743254,
 		"taille": "2 460 km²",
 		"img1": "assets/img/Ross.jpg",
@@ -205,14 +205,14 @@
 		"img3": "assets/img/Ross3.jpg",
 		"descCourte": "L'île de Ross est une île volcanique de la mer de Ross, dans l’océan Antarctique.",
 		"descLong": "L’île est située dans la mer de Ross et elle est séparée du continent par le détroit de McMurdo (à l'ouest), large de 45 kilomètres et. La longueur de l’île, dans une direction est-ouest, est d'environ 75 km ; elle s'étend sur près de 73 km du cap Bird (au nord) au cap Armitage, situé à l’extrémité méridionale de la péninsule de la Pointe de la cabane (celle de Scott). La superficie de l’île est de 2 480 km2.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Américiaine",
 		"surfHab": "2 000 km²"
 	},
 	{
 		"id": 14,
 		"nom": "Baffin",
-		"lieu": "Arctique",
+		"lieu": "Océan Arctique",
 		"prix": 56743234,
 		"taille": "507 451 km²",
 		"img1": "assets/img/Baffin.jpg",
@@ -220,14 +220,14 @@
 		"img3": "assets/img/Baffin3.jpg",
 		"descCourte": "L’île de Baffin, est l’une des îles du passage du Nord-Ouest, dans l'archipel arctique canadien.",
 		"descLong": "L’île de Baffin est séparée du Québec au sud par le détroit d’Hudson. Elle est bordée au nord par la baie de Baffin ainsi qu'à l'est et au sud-est par le détroit de Davis qui la séparent tous deux du Groenland. Le bassin de Foxe à l'ouest, le golfe de Boothia au nord-ouest et le détroit de Lancaster au nord-nord-ouest séparent l’île de Baffin du reste de l’archipel arctique. Le nord de l'île est séparé de la péninsule de Melville (Nunavut continental) par un passage d'orientation est-ouest, le détroit de Fury and Hecla.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Canadienne",
 		"surfHab": "500 000 km²"
 	},
 	{
 		"id": 15,
 		"nom": "Ours",
-		"lieu": "Arctique",
+		"lieu": "Océan Arctique",
 		"prix": 82136546,
 		"taille": "176 km²",
 		"img1": "assets/img/Ours.jpg",
@@ -235,7 +235,7 @@
 		"img3": "assets/img/Ours3.jpg",
 		"descCourte": "L’île aux Ours, est une île de Norvège située dans la partie occidentale de la mer de Barents, en bordure de la mer de Norvège",
 		"descLong": "L'île aux Ours est une île européenne de la mer de Barents, une mer bordière de l'océan Arctique. L'île est située à guère plus des trois cinquièmes du chemin reliant l'île de Sørøya (Finnmark) et le Svalbard. Elle est baignée à l'ouest par la mer de Norvège.",
-		"ammenage": "Non",
+		"ammenage": "Vierge",
 		"Nationalite": "Norvégienne",
 		"surfHab": "²"
 	},
@@ -250,7 +250,7 @@
 		"img3": "assets/img/Flottante3.jpg",
 		"descCourte": "Ile flottante.",
 		"descLong": "Ile flottante avec sa crème anglaise et son coulis de caramel.",
-		"ammenage": "Non",
+		"ammenage": "Gourmande",
 		"Nationalite": "Anglaise",
 		"surfHab": "0 cm"
 	}

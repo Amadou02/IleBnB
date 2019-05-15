@@ -17,7 +17,7 @@ eCommApp.run(function($rootScope, $http){
 eCommApp.config(['$routeProvider', function($routeProvider, $routeParams) {
 			// Système de routage
 			$routeProvider
-			.when('/articles', {
+			.when('/articles/:cat?', {
 					templateUrl: 'partials/articles.html',
 					controller: 'articleCtrl'
 			})
@@ -36,11 +36,13 @@ eCommApp.config(['$routeProvider', function($routeProvider, $routeParams) {
 			.otherwise({
 					redirectTo: '/articles'
 			});
+
 		}
 ]);
 // Création d'un controller 'articleCtrl'
-eCommApp.controller('articleCtrl', function($scope) {
-
+eCommApp.controller('articleCtrl', function($scope, $rootScope, $routeParams) {
+  $scope.filtre=$routeParams.cat;
+  console.log($scope.filtre);
 });
 
 // Création d'un controller 'detailCtrl'
@@ -58,6 +60,7 @@ eCommApp.controller('detailCtrl',function($rootScope,$scope,$routeParams){
   $scope.descLong = $scope.element[$scope.id].descLong;
   $scope.ammenage = $scope.element[$scope.id].ammenage;
   $scope.Nationalite = $scope.element[$scope.id].Nationalite;
+  $scope.surfHab = $scope.element[$scope.id].surfHab;
   // console.log($scope.element[$scope.id]);
   console.log('Etat panier :');
   console.log($rootScope.cartList);

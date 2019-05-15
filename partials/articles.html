@@ -2,15 +2,15 @@
 <section>
   <!-- ng-repeat se répétera pour chaque élément du JSON  -->
   <div class="row">
-    <div class="col-sm-12 col-md-6 col-lg-3 my-2" ng-repeat="x in element">
-      <a href="#!/detail/{{$index}}">
-        <div class="card {{x.lieu}}">
+    <div class="col-sm-12 col-md-6 col-lg-3 my-2" ng-repeat="x in element | filter:filtre">
+      <a class="art" href="#!/detail/{{x.id}}">
+        <div class="card {{x.lieu}}{{x.ammenage}}">
           <img class="card-img-top h-50" src="{{x.img1}}" alt="{{x.nom}}"></img>
           <div class="card-body h-50">
             <p class="card-text">{{x.descCourte}}</p>
           </div>
           <div class="card-footer">
-            <span class="card-text">Prix : {{x.prix}}</span>
+            <span class="card-text">Prix : {{x.prix}}</span><span> €</span>
           </div>
         </div>
       </a>
