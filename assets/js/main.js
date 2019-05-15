@@ -1,74 +1,76 @@
 var eCommApp = angular.module('appComm', ['ngRoute']);
 
 //au demarrage de mon appli
-eCommApp.run(function($rootScope){
+eCommApp.run(function($rootScope, $http){
     //Init des tableaux
-    $rootScope.idList=[];
-    $rootScope.nomList=[];
-    $rootScope.lieuList=[];
-    $rootScope.prixList=[];
-    $rootScope.tailleList=[];
-    $rootScope.img1List=[];
-    $rootScope.img2List=[];
-    $rootScope.img3List=[];
-    $rootScope.descCourteList=[];
-    $rootScope.descLongList=[];
-    $rootScope.amménagéList=[];
-    $rootScope.NationalitéList=[];
-    $rootScope.surfHabList=[];
-});
+    // $rootScope.idList=[];
+    // $rootScope.nomList=[];
+    // $rootScope.lieuList=[];
+    // $rootScope.prixList=[];
+    // $rootScope.tailleList=[];
+    // $rootScope.img1List=[];
+    // $rootScope.img2List=[];
+    // $rootScope.img3List=[];
+    // $rootScope.descCourteList=[];
+    // $rootScope.descLongList=[];
+    // $rootScope.amménagéList=[];
+    // $rootScope.NationalitéList=[];
+    // $rootScope.surfHabList=[];
 
+    $http.get("articles.json")
+    .then(function(response) {
+      // reponse.data correspond au données du JSON et le renvoi dans la variable 'element'
+        $rootScope.element = response.data;
+        console.log($rootScope.element);
+      });
+});
 // Configuration des routes
-eCommApp.config(['$routeProvider', function($routeProvider) {
+eCommApp.config(['$routeProvider', function($routeProvider, $routeParams) {
 			// Système de routage
 			$routeProvider
-			.when('/', {
+			.when('/articles', {
 					templateUrl: 'partials/articles.html',
 					controller: 'articleCtrl'
 			})
       .when('/detail/:id?',{
         controller: 'detailCtrl',
         templateUrl: 'partials/detail.html'
-})
+      })
 			.otherwise({
-					redirectTo: '/'
+					redirectTo: '/articles'
 			});
 		}
 ]);
 // Création d'un controller 'articleCtrl'
 eCommApp.controller('articleCtrl', function($scope, $rootScope, $http) {
   // http.get permet de récup les données (data) du JSON
-  $http.get("articles.json")
-  .then(function(response) {
-    // reponse.data correspond au données du JSON et le renvoi dans la variable 'element'
-      $scope.element = response.data;
-    });
-  });
-// Création d'un controller 'articleCtrl'
-eCommApp.controller('detailCtrl',function($rootScope,$scope,$routeParams){
+  // $http.get("articles.json")
+  // .then(function(response) {
+  //   // reponse.data correspond au données du JSON et le renvoi dans la variable 'element'
+  //     $rootScope.element = response.data;
+  //     // console.log($rootScope.element);
+  //     // console.log($rootScope.element[1].nom);
+  //   });
+});
 
-  // je récupère le parametre indiqué dans la route (c'est l'index de mes tableaux)
-  // $scope.id=$routeParams.id;
-  // //je recupère les varialbles dans les tableaux correspondants, à l'index 'id'
-  // $scope.id =  $rootScope.idList[$scope.id];
-  // $scope.nom =  $rootScope.nomList[$scope.id];
-  // $scope.lieu =  $rootScope.lieuList[$scope.id];
-  // $scope.prix =  $rootScope.prixList[$scope.id];
-  // $scope.taille =  $rootScope.tailleList[$scope.id];
-  // $scope.img1 =  $rootScope.img1List[$scope.id];
-  // $scope.img2 =  $rootScope.img2List[$scope.id];
-  // $scope.img3 =  $rootScope.img3List[$scope.id];
-  // $scope.descCourte =  $rootScope.descCourteList[$scope.id];
-  // $scope.descLong =  $rootScope.descLongList[$scope.id];
-  // $scope.amménagé =  $rootScope.amménagéList[$scope.id];
-  // $scope.Nationalité =  $rootScope.NationalitéList[$scope.id];
-  // $scope.surfHab =  $rootScope.surfHabList[$scope.id];
+// Création d'un controller 'detailCtrl'
+eCommApp.controller('detailCtrl',function($rootScope,$scope,$http,$routeParams){
+  $scope.id=$routeParams.id;
+  $scope.nom = $scope.element[$scope.id].nom;
+  $scope.lieu = $scope.element[$scope.id].lieu;
+  $scope.prix = $scope.element[$scope.id].prix;
+  $scope.taille = $scope.element[$scope.id].taille;
+  $scope.img1 = $scope.element[$scope.id].img1;
+  $scope.descCourte = $scope.element[$scope.id].descCourte;
+  $scope.ammenage = $scope.element[$scope.id].ammenage;
+  $scope.Nationalite = $scope.element[$scope.id].Nationalite;
+
 });
 
 // Fonction pour changer l'image dans les détails
-function changeImage(a) {
+function changeImage(newSrc) {
   // On change la valeur de l'attribut scr
-  $('#mainImg').attr('src', a);
+  $('#mainImg').attr('src', newSrc);
 }
 // Test
 function openNav() {
@@ -80,3 +82,8 @@ function closeNav() {
     document.getElementById("sideNavigation").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
+
+$('.btnPacifique').on('click', function(){
+  $('.card').hide();
+  $('.pacifique').show();
+});
