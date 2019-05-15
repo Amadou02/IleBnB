@@ -1,7 +1,11 @@
 var eCommApp = angular.module('appComm', ['ngRoute']);
+var total = 0;
 
 //au demarrage de mon appli
 eCommApp.run(function($rootScope, $http){
+  //j'initialise mes tableaux
+    $rootScope.cartList=[];
+
     $http.get("articles.json")
     .then(function(response) {
       // reponse.data correspond au données du JSON et le renvoi dans la variable 'element'
@@ -17,9 +21,17 @@ eCommApp.config(['$routeProvider', function($routeProvider, $routeParams) {
 					templateUrl: 'partials/articles.html',
 					controller: 'articleCtrl'
 			})
+			.when('/articles/:art?', {
+					templateUrl: 'partials/articles.html',
+					controller: 'articleCtrl'
+			})
       .when('/detail/:id?',{
         controller: 'detailCtrl',
         templateUrl: 'partials/detail.html'
+      })
+      .when('/panier',{
+        controller: 'panierCtrl',
+        templateUrl: 'partials/panier.html'
       })
 			.otherwise({
 					redirectTo: '/articles'
@@ -27,19 +39,13 @@ eCommApp.config(['$routeProvider', function($routeProvider, $routeParams) {
 		}
 ]);
 // Création d'un controller 'articleCtrl'
-eCommApp.controller('articleCtrl', function($scope, $rootScope, $http) {
-  // http.get permet de récup les données (data) du JSON
-  // $http.get("articles.json")
-  // .then(function(response) {
-  //   // reponse.data correspond au données du JSON et le renvoi dans la variable 'element'
-  //     $rootScope.element = response.data;
-  //     // console.log($rootScope.element);
-  //     // console.log($rootScope.element[1].nom);
-  //   });
+eCommApp.controller('articleCtrl', function($scope) {
+
 });
 
 // Création d'un controller 'detailCtrl'
-eCommApp.controller('detailCtrl',function($rootScope,$scope,$http,$routeParams){
+eCommApp.controller('detailCtrl',function($rootScope,$scope,$routeParams){
+
   $scope.id=$routeParams.id;
   $scope.nom = $scope.element[$scope.id].nom;
   $scope.lieu = $scope.element[$scope.id].lieu;
@@ -52,15 +58,45 @@ eCommApp.controller('detailCtrl',function($rootScope,$scope,$http,$routeParams){
   $scope.descLong = $scope.element[$scope.id].descLong;
   $scope.ammenage = $scope.element[$scope.id].ammenage;
   $scope.Nationalite = $scope.element[$scope.id].Nationalite;
+  // console.log($scope.element[$scope.id]);
+  console.log('Etat panier :');
+  console.log($rootScope.cartList);
+
+  $scope.addCart = function() {
+    var test = true;
+    for (var i = 0; i < $rootScope.cartList.length; i++) {
+      if ($rootScope.cartList[i] == $scope.element[$scope.id]) {
+        alert('Élement déja présent dans le panier');
+        test = false;
+      }
+    }
+    if (test) {
+      // console.log($scope.element[$scope.id]);
+      $rootScope.cartList.push($scope.element[$scope.id]);
+      console.log('Panier après ajout :');
+      console.log($rootScope.cartList);
+      console.log('Prix article :');
+      console.log($scope.element[$scope.id].prix);
+      total += $scope.element[$scope.id].prix;
+      console.log('Total panier :');
+      console.log(total);
+      $routeScope.total = total;
+    }
+  };
+});
+
+// Création d'un controller 'articleCtrl'
+eCommApp.controller('panierCtrl', function($scope) {
 
 });
 
 // Fonction pour changer l'image dans les détails
-function changeImage(newSrc) {
+function changeImage() {
   // On change la valeur de l'attribut scr
-  $('#mainImg').attr('src', newSrc);
+  // $('#mainImg').attr('src', newSrc);
+  alert('test');
 }
-// Test
+
 function openNav() {
     document.getElementById("sideNavigation").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
@@ -70,8 +106,3 @@ function closeNav() {
     document.getElementById("sideNavigation").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
-
-$('.btnPacifique').on('click', function(){
-  $('.card').hide();
-  $('.pacifique').show();
-});

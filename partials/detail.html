@@ -1,18 +1,9 @@
 <!-- partials/detail.html -->
 <section>
-  <!-- <p>Id : {{id}}</p>
-  <p>Nom : {{nom}}</p>
-  <p>Lieu : {{lieu}}</p>
-  <p>Prix : {{prix}}</p>
-  <p>Taille : {{taille}}</p>
-  <img src="{{img1}}" alt=""></img>
-  <p>Description : {{descCourte}}</p>
-  <p>Amménagé : {{ammenage}}</p>
-  <p>Nationalité : {{Nationalite}}</p> -->
   <div class="row my-3 mx-3">
     <div class="col-md-6">
       <div class="text-center">
-        <img id="mainImg" class="img-fluid rounded" src="{{img1}}" alt=""></img>
+        <img id="mainImg" onclick="changeImage()" class="img-fluid rounded" src="{{img1}}" alt=""></img>
       </div>
       <div class="row d-md-flex d-none my-2">
         <div class="col-4">
@@ -43,7 +34,12 @@
         <li>Amménagé : {{ammenage}}</li>
         <li>Nationalité : {{Nationalite}}</li>
       </ul>
-      <p><a href="#!"><small>Retour</small></a></p>
+      <p>
+        <button type="button" ng-click="addCart()" class="btn btn-success">Ajouter panier</button>
+        <!-- <button href="#!" type="button" class="btn btn-secondary">Retour</button> -->
+        <a href="#!"><small>Retour</small></a>
+        <a class="offset-11" href="#!/panier">Panier</a>
+      </p>
     </div>
   </div>
 </section>

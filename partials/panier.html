@@ -1,0 +1,23 @@
+<!-- partials/panier.html -->
+<section>
+  <div class="" ng-repeat="art in cartList">
+    <div class="row my-3 mx-3">
+      <div class="col-md-3">
+        <div class="text-center">
+          <img id="mainImg" class="img-fluid rounded" src="{{art.img1}}" alt=""></img>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li>Nom : {{art.nom}}</li>
+          <li>Lieu : {{art.lieu}}</li>
+          <li>Amménagé : {{art.ammenage}}</li>
+          <li>Nationalité : {{art.Nationalite}}</li>
+          <li>Prix : {{art.prix}}</li>
+        </ul>
+      </div>
+    </div>
+    <hr></hr>
+  </div>
+  Total : {{total}}
+</section>
