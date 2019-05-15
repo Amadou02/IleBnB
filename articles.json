@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"nom": "Viti Levu",
-		"lieu": "Ile du Pacifique",
+		"lieu": "Pacifique",
 		"prix": "12.447.923€",
 		"taille": "10 388 km²",
 		"img1": "assets/img/VitiLevu.jpg",
@@ -17,7 +17,7 @@
 	{
 		"id": 1,
 		"nom": "Saipan",
-		"lieu": "Ile du Pacifique",
+		"lieu": "Pacifique",
 		"prix": "16,543,450€",
 		"taille": "417,89 km²",
 		"img1": "assets/img/Saipan.jpg",
@@ -32,7 +32,7 @@
 	{
 		"id": 2,
 		"nom": "Upolu",
-		"lieu": "Ile du Pacifique",
+		"lieu": "Pacifique",
 		"prix": "56,323,465€",
 		"taille": "1 125 km²",
 		"img1": "assets/img/Upolu.jpg",
@@ -47,7 +47,7 @@
 	{
 		"id": 3,
 		"nom": "Molokai",
-		"lieu": "Ile du Pacifique",
+		"lieu": "Pacifique",
 		"prix": "45,324,767€",
 		"taille": "673 km²",
 		"img1": "assets/img/Molokai.jpg",
@@ -62,7 +62,7 @@
 	{
 		"id": 4,
 		"nom": "Tenerife",
-		"lieu": "Ile de l'Atlantique",
+		"lieu": "Atlantique",
 		"prix": "46,434,324€",
 		"taille": "2 034 km²",
 		"img1": "assets/img/Tenerife.jpg",
@@ -77,7 +77,7 @@
 	{
 		"id": 5,
 		"nom": "Lanzarote",
-		"lieu": "Ile de l'Atlantique",
+		"lieu": "Atlantique",
 		"prix": "454,563,242€",
 		"taille": "845,94 km²",
 		"img1": "assets/img/Lanzarote.jpg",
@@ -92,7 +92,7 @@
 	{
 		"id": 6,
 		"nom": "Gough",
-		"lieu": "Ile de l'Atlantique",
+		"lieu": "Atlantique",
 		"prix": "34,675,443€",
 		"taille": "91 km²",
 		"img1": "assets/img/Gough.jpg",
@@ -107,7 +107,7 @@
 	{
 		"id": 7,
 		"nom": "La Gomera",
-		"lieu": "Ile de l'Atlantique",
+		"lieu": "Atlantique",
 		"prix": "35,776,544€",
 		"taille": "372 km²",
 		"img1": "assets/img/Gomera.jpg",
@@ -122,7 +122,7 @@
 	{
 		"id": 8,
 		"nom": "Barren",
-		"lieu": "Ile Indienne",
+		"lieu": "Indienne",
 		"prix": "12,000,000€",
 		"taille": "10 km²",
 		"img1": "assets/img/Barren.jpg",
@@ -137,7 +137,7 @@
 	{
 		"id": 9,
 		"nom": "Inhaca",
-		"lieu": "Ile Indienne",
+		"lieu": "Indienne",
 		"prix": "34,543,674€",
 		"taille": "52 km²",
 		"img1": "assets/img/Inhaca.jpg",
@@ -152,7 +152,7 @@
 	{
 		"id": 10,
 		"nom": "Tromelin",
-		"lieu": "Ile Indienne",
+		"lieu": "Indienne",
 		"prix": "5,000,000€",
 		"taille": "1 km²",
 		"img1": "assets/img/Tromelin.jpg",
@@ -167,7 +167,7 @@
 	{
 		"id": 11,
 		"nom": "Weh",
-		"lieu": "Ile Indienne",
+		"lieu": "Indienne",
 		"prix": "45,643,563€",
 		"taille": "154 km²",
 		"img1": "assets/img/Weh.jpg",
@@ -182,7 +182,7 @@
 	{
 		"id": 12,
 		"nom": "Deception",
-		"lieu": "Ile de l'antarctique",
+		"lieu": "Antarctique",
 		"prix": "34,567,430€",
 		"taille": "72 km²",
 		"img1": "assets/img/Deception.jpg",
@@ -197,7 +197,7 @@
 	{
 		"id": 13,
 		"nom": "Ross",
-		"lieu": "Ile de l'antarctique",
+		"lieu": "Antarctique",
 		"prix": "678,743,254€",
 		"taille": "2 460 km²",
 		"img1": "assets/img/Ross.jpg",
@@ -212,7 +212,7 @@
 	{
 		"id": 14,
 		"nom": "Baffin",
-		"lieu": "Ile de l'Arctique",
+		"lieu": "Arctique",
 		"prix": "56,743,234€",
 		"taille": "507 451 km²",
 		"img1": "assets/img/Baffin.jpg",
@@ -227,7 +227,7 @@
 	{
 		"id": 15,
 		"nom": "Ours",
-		"lieu": "Ile de l'Arctique",
+		"lieu": "Arctique",
 		"prix": "82,136,546€",
 		"taille": "176 km²",
 		"img1": "assets/img/Ours.jpg",
