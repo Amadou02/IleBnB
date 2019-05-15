@@ -13,7 +13,7 @@ eCommApp.run(function($rootScope, $http){
 eCommApp.config(['$routeProvider', function($routeProvider, $routeParams) {
 			// Système de routage
 			$routeProvider
-			.when('/articles', {
+			.when('/articles/:cat?', {
 					templateUrl: 'partials/articles.html',
 					controller: 'articleCtrl'
 			})
@@ -24,18 +24,13 @@ eCommApp.config(['$routeProvider', function($routeProvider, $routeParams) {
 			.otherwise({
 					redirectTo: '/articles'
 			});
+
 		}
 ]);
 // Création d'un controller 'articleCtrl'
-eCommApp.controller('articleCtrl', function($scope, $rootScope, $http) {
-  // http.get permet de récup les données (data) du JSON
-  // $http.get("articles.json")
-  // .then(function(response) {
-  //   // reponse.data correspond au données du JSON et le renvoi dans la variable 'element'
-  //     $rootScope.element = response.data;
-  //     // console.log($rootScope.element);
-  //     // console.log($rootScope.element[1].nom);
-  //   });
+eCommApp.controller('articleCtrl', function($scope, $rootScope, $routeParams) {
+  $scope.filtre=$routeParams.cat;
+  console.log($scope.filtre);
 });
 
 // Création d'un controller 'detailCtrl'
@@ -70,8 +65,3 @@ function closeNav() {
     document.getElementById("sideNavigation").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
-
-$('.btnPacifique').on('click', function(){
-  $('.card').hide();
-  $('.pacifique').show();
-});

@@ -36,57 +36,47 @@
       <h4 class="text-center text-white">Les Océans</h4>
       <hr>
       <div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="Radio1" name="Radio" class="custom-control-input">
-            <label class="custom-control-label" for="Radio1">Océan Pacifique</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="Radio2" name="Radio" class="custom-control-input">
-            <label class="custom-control-label" for="Radio2">Océan Atlantique</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="Radio3" name="Radio" class="custom-control-input">
-            <label class="custom-control-label" for="Radio3">Océan Indien</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="Radio4" name="Radio" class="custom-control-input">
-            <label class="custom-control-label" for="Radio4">Océan Antarctique</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="Radio5" name="Radio" class="custom-control-input">
-            <label class="custom-control-label" for="Radio5">Océan Arctique</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="Radio6" name="Radio" class="custom-control-input">
-            <label class="custom-control-label" for="Radio6">Aucun filtre</label>
-          </div>
+        <ul>
+          <li>
+            <a href="#!/articles/Pacifique">Océan Pacifique</a>
+          </li>
+          <li>
+            <a href="#!/articles/Atlantique">Océan Atlantique</a>
+          </li>
+          <li>
+            <a href="#!/articles/Indien">Océan Indien</a>
+          </li>
+          <li>
+            <a href="#!/articles/Antarctique">Océan Antarctique</a>
+          </li>
+          <li>
+            <a href="#!/articles/Arctique">Océan Arctique</a>
+          </li>
+
+        </ul>
       </div>
       <hr class="hr">
       <h4 class="text-center text-white">Type D'Île</h4>
       <div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio1">Îles Vierges</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio2">Îles avec constructions</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio3">Île gourmande</label>
-          </div>
-          <div class="p custom-control custom-radio">
-            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio4">Aucun filtre</label>
-          </div>
+        <ul>
+          <li>
+            <input type="checkbox" value="vierge" id="filter-vierge" />
+            <label for="filter-categorya">Île vierge</label>
+          </li>
+          <li>
+            <input type="checkbox" value="construction" id="filter-construction" />
+            <label for="filter-categorya">Île avec construction</label>
+          </li>
+          <li>
+            <input type="checkbox" value="gourmande" id="filter-gourmande" />
+            <label for="filter-categorya">Île gourmande</label>
+          </li>
+        </ul>
       </div>
     </div>
 
     <nav class="fxd topnav">
-      <a href="#" onclick="openNav()">
-        <img id="flc" class="position-absolute" src="assets/img/fleche.png" alt="">
-      </a>
+      <img id="flc" class="position-absolute" onclick="openNav()" src="assets/img/fleche.png" alt="">
     </nav>
 
     <div id="main">
@@ -118,7 +108,7 @@
         <h1 >CONTACTEZ-NOUS</h1>
         <p>Contact Service Client</p>
         <p>Contact Publicité</p>
-        <p>I-Watch recrute</p>
+        <p>Île BnB recrute</p>
         <p>Contact Professionnels</p>
         <p>Affiliation</p>
         <p>Notifier un contenu illicite</p>

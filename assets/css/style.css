@@ -216,3 +216,25 @@ h1{
 #mainImg{
   width: 35em;
 }
+/* /////////////////////////////////////////////// */
+.categorya, .categoryb {
+    display:none;
+    width: 30px;
+    height: 20px;
+    line-height:20px;
+    text-align:center;
+    background: red;
+    margin: 10px;
+    float: left;
+    font-size:11px;
+    color:white;
+    font-family:sans-serif;
+}
+
+.categoryb {
+    background: blue;
+}
+
+.categorya.categoryb{
+    background:purple;
+}
