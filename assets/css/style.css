@@ -47,7 +47,9 @@
     font-size: 15px;
     color: white;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    margin-bottom: 10px !important;
+    margin-left: 15px !important;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -203,8 +205,8 @@ h1{
 
 #flag{
     height:40px;
-    width: 25px;
-  }
+    width: 30px;
+}
 .card
 {
   height: 25em;
