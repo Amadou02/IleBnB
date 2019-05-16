@@ -6,9 +6,10 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="assets/img/Ile.png">
   <script src="assets/js/main.js"></script>
   <title>IleBnB : une ile pour vous !</title>
 </head>
@@ -17,14 +18,14 @@
     <!-- Pour crée un jumbotron pour l'accueil du site avec sont nom -->
     <div class="jmt container-fluid">
       <div class="jmb jumbotron">
-        <div><img class="Ilemage d-sm-flex d-none" src="assets/img/Ile.png" alt=""></div>
-        <div>
+        <a href="#!"><img class="Ilemage d-sm-flex d-none" src="assets/img/Ile.png" alt=""></a>
+        <div class="container titre">
           <h2 class="tr text-center display-4"><span><img class="Iimage" src="assets/img/palmier.png" alt=""></span>le BnB</h2>
-          <p class="lead text-center">Une île pas que flotante</p>
+          <p class="lead text-center flot">Une île pas que flotante</p>
         </div>
-        <div class="row">
-          <a class="offset-10" href="#!">Accueil</a>
-          <a class="offset-11" href="#!/panier">Panier</a>
+        <div class="pnac">
+          <a class="Acc" href="#!">Accueil</a>
+          <a class="Pn" href="#!/panier">Panier</a>
         </div>
       </div>
     </div>
@@ -83,8 +84,8 @@
     </div>
   </main>
 
-  <footer class="mt-5 backgr text-white">
-    <div class=" container-fluid row">
+  <footer class="mt-5 backgr text-white text-center">
+    <div class="txt container-fluid row">
       <div class="footer">
         <h1>SERVICES ET GARANTIES</h1>
         <p>Garanties et assurances</p>
