@@ -10,10 +10,58 @@
             <p class="card-text">{{x.descCourte}}</p>
           </div>
           <div class="card-footer">
-            <span class="card-text">Prix : {{x.prix}}</span><span> €</span>
+            <span class="card-text">Prix : {{x.prix | currency: " "}}</span><span> €</span>
           </div>
         </div>
       </a>
     </div>
   </div>
-</section>
+  <main>
+    <div id="sideNavigation" class="text-white sidenav">
+      <a href="javascript:void(0)" class="text-white closebtn" onclick="closeNav()">&times;</a>
+      <h4 class="text-center text-white">Les Océans</h4>
+      <hr>
+      <div>
+        <ul>
+          <li>
+            <a href="#!/articles/Pacifique">Océan Pacifique</a>
+          </li>
+          <li>
+            <a href="#!/articles/Atlantique">Océan Atlantique</a>
+          </li>
+          <li>
+            <a href="#!/articles/Indien">Océan Indien</a>
+          </li>
+          <li>
+            <a href="#!/articles/Océan Antartique">Océan Antarctique</a>
+          </li>
+          <li>
+            <a href="#!/articles/Océan Arctique">Océan Arctique</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="hr">
+      <h4 class="text-center text-white">Type D'Île</h4>
+      <div>
+        <ul>
+          <li>
+            <a href="#!/articles/Vierge">Île vierge</a>
+          </li>
+          <li>
+            <a href="#!/articles/Construction">Île avec construction</a>
+          </li>
+          <li>
+            <a href="#!/articles/Gourmande">Île gourmande</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="fxd topnav">
+        <img id="flc" class="position-absolute" onclick="openNav()" src="assets/img/fleche.png" alt="">
+      </nav>
+
+      <div id="main">
+        <!-- Add all your websites page content here  -->
+      </div>
+    </main>
+  </section>
