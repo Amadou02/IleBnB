@@ -14,10 +14,11 @@ margin-top: 300px;
 }
 .Ilemage{
   float: left;
-  height: 120px;
+  height: 200px;
+  margin-top: 4%;
 }
 .Iimage{
-  height: 55px;
+  height: 90px;
   margin-bottom: 15px;
   transform: rotate(-15deg);
 }
@@ -26,6 +27,8 @@ margin-top: 300px;
 }
 .btn{
   color: white !important;
+  background-color: #d1b17e !important;
+  font-size: 120% !important;
 }
 .btnmenu{
   background-color: #d1b17e !important;
@@ -82,6 +85,8 @@ margin-top: 300px;
 }
 body {
   overflow-x: hidden;
+  font-family: 'Lobster Two', cursive !important;
+  font-size: 120% !important;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -160,8 +165,9 @@ h4{
   /* z-index: 1; */
   /* position: absolute; */
 }
+
 .footer{
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 20px;
     margin-left: 30px;
 }
@@ -172,9 +178,11 @@ h1{
 
 .backgr{
   background-color: #d1b17e;
-  border-radius: 5px
+  border-radius: 5px;
 }
-
+.txt{
+  margin-left: 7% !important;
+}
 #world{
     padding-top: 15px;
 }
@@ -218,32 +226,45 @@ h1{
   width: 35em;
 }
 /* /////////////////////////////////////////////// */
-.categorya, .categoryb {
-    display:none;
-    width: 30px;
-    height: 20px;
-    line-height:20px;
-    text-align:center;
-    background: red;
-    margin: 10px;
-    float: left;
-    font-size:11px;
-    color:white;
-    font-family:sans-serif;
-}
-
-.categoryb {
-    background: blue;
-}
-
-.categorya.categoryb{
-    background:purple;
-}
-
 .art
 {
   color: black !important;
   text-decoration: none !important;
+}
+
+ul{
+  list-style: none !important;
+}
+
+a{
+  outline: none !important;
+  color: white !important;
+}
+
+.titre{
+  font-family: 'Lobster Two', cursive !important;
+  color: black !important;
+}
+
+ .flot{
+   font-size: 300% !important;
+ }
+
+h2{
+  font-size: 450% !important;
+}
+.pnac{
+  margin-left: 85%;
+}
+.Acc{
+  font-size: 150% !important;
+  color: #014E8C !important;
+  padding-right: 20px;
+}
+
+.Pn{
+  font-size: 150% !important;
+  color: #014E8C !important;
 }
 ul{
   list-style: none !important;
