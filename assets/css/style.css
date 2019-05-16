@@ -237,7 +237,7 @@ ul{
 }
 
 a{
-  text-decoration: none;
+  outline: none !important;
   color: white !important;
 }
 
