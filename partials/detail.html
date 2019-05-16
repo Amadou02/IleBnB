@@ -2,9 +2,11 @@
 <section>
   <div class="row my-3 mx-3">
     <div class="col-md-6">
+      <!-- Image principale -->
       <div class="text-center">
         <img id="mainImg" onclick="changeImage()" class="img-fluid rounded" src="{{img1}}" alt=""></img>
       </div>
+      <!-- Images secondaires -->
       <div class="row d-md-flex d-none my-2">
         <div class="col-4">
           <a>
@@ -23,6 +25,7 @@
         </div>
       </div>
     </div>
+    <!-- Description de l'article -->
     <div class="col-md-4">
       <h3 class="my-3">Description</h3>
       <p>{{descLong}}</p>
@@ -45,7 +48,6 @@
           </select>
         </label>
         <button type="button" ng-click="addCart()" class="btn btn-success">Ajouter panier</button>
-        <!-- <button href="#!" type="button" class="btn btn-secondary">Retour</button> -->
         <a href="#!"><small>Retour</small></a>
         <a class="offset-11" href="#!/panier">Panier</a>
       </p>

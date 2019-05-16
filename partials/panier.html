@@ -1,15 +1,18 @@
 <!-- partials/panier.html -->
 <section>
-  <div class="">
+  <!-- Message si le panier est vide -->
+  <!-- <div class="">
     <span>{{message}}</span>
-  </div>
+  </div> -->
   <div class="" ng-repeat="art in cartList">
-    <div class="row my-3 mx-3 art{{$index}}">
+    <div class="row my-3 mx-3">
       <div class="col-md-3">
+        <!-- Image de l'article choisi -->
         <div class="text-center">
           <img id="mainImg" class="img-fluid rounded" src="{{art.img1}}" alt=""></img>
         </div>
       </div>
+      <!-- Description de l'article choisi -->
       <div class="col-md-4">
         <ul>
           <li>Nom : {{art.nom}}</li>
@@ -20,9 +23,10 @@
           <li>Quantité : {{art.Quantite}}</li>
         </ul>
       </div>
+      <!-- Bouton de modif -->
       <div class="">
-        <button type="button" ng-click="addCart($index)" class="btn btn-primary">-</button>
-        <button type="button" ng-click="minusCart($index)" class="btn btn-success">+</button>
+        <button type="button" ng-click="minusCart($index)" class="btn btn-primary">-</button>
+        <button type="button" ng-click="addCart($index)" class="btn btn-success">+</button>
         <button type="button" ng-click="suppCart($index)" class="btn btn-danger">Supprimer article</button>
       </div>
     </div>
