@@ -202,12 +202,12 @@ h1{
   width: 30px;
 }
 
-#paid{
+.paid{
   height:50px;
   width: 50px;
 }
 
-#flag{
+.flag{
   height:40px;
   width: 30px;
 }
@@ -250,8 +250,11 @@ a{
   font-size: 300% !important;
 }
 
-h2{
+h1{
   font-size: 400% !important;
+}
+h2{
+  font-size: 140% !important;
 }
 .pnac{
   margin-left: 85%;
@@ -269,7 +272,7 @@ h2{
   outline: none !important;
 }
 .lesbtn{
-  margin-left: 80%;
+
 }
 .Conf{
   color: #014E8C !important;
@@ -285,10 +288,10 @@ h2{
 }
 .Supp{
   color: #E40F01 !important;
-  margin-bottom: 300px;
-  margin-left: 80%;
+  margin-top: -400px;
+  margin-left: 250px;
 }
-@media all and (max-width: 740px){
+@media all and (max-width: 768px){
   .pnac{
     margin-left: 70%;
   }
@@ -314,6 +317,10 @@ h2{
   }
   .lesbtn{
     margin-left: -10px;
+  }
+  .Supp{
+    margin-top: -600px;
+    margin-left: 60px;
   }
 }
 @media all and (max-width: 1024px){
@@ -333,6 +340,7 @@ h2{
   .Vid{
     width: 200px;
     margin-top: 10px ;
+    margin-right: 25px;
   }
   .tt{
     margin-left: -100px;
@@ -340,6 +348,10 @@ h2{
   }
   .lesbtn{
     margin-left: -10px;
+  }
+  .Supp{
+    margin-top: -421px;
+    margin-left: 185px;
   }
 }
 ul{

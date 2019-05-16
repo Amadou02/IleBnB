@@ -100,8 +100,13 @@ eCommApp.controller('detailCtrl',function($rootScope,$scope,$routeParams){
       // console.log('Total panier :');
       // console.log(total);
     }
+    alert('Article ajouté au panier ! Merci !')
   };
-
+  // Event pour changer l'image principale par l'image secondaire cliquée
+  $('.imgBis').on('click', function(){
+    var src = $(this).attr("src");
+    $('#mainImg').attr("src", src);
+  });
 });
 // Création d'un controller 'articleCtrl'
 eCommApp.controller('panierCtrl', function($scope, $rootScope) {
@@ -192,12 +197,14 @@ eCommApp.controller('panierCtrl', function($scope, $rootScope) {
     }
   };
 });
-// Fonction pour changer l'image dans les détails
-function changeImage() {
-  // On change la valeur de l'attribut scr
-  // $('#mainImg').attr('src', newSrc);
-  alert('test');
-}
+// // Fonction pour changer l'image dans les détails
+// function changeImage(e) {
+//   var src = $(this).attr("id");
+//   alert(src);
+//   // On change la valeur de l'attribut scr
+//   // $('#mainImg').attr('src', newSrc);
+//   // alert('test');
+// }
 // Fonction d'affichage du menu filtre
 function openNav() {
   document.getElementById("sideNavigation").style.width = "250px";
