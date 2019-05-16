@@ -133,9 +133,12 @@ function changeImage() {
 function openNav() {
     document.getElementById("sideNavigation").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("flc").style.display ="none";
+
 }
 
 function closeNav() {
     document.getElementById("sideNavigation").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("flc").style.display ="block";
 }

@@ -1,9 +1,9 @@
 .fxd{
-position: fixed;
-top: 0;
-right: 0;
-left: 0;
-margin-top: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 300px;
 }
 .jmt{
   color: white;
@@ -247,11 +247,11 @@ a{
 }
 
  .flot{
-   font-size: 300% !important;
+   font-size: 250% !important;
  }
 
 h2{
-  font-size: 450% !important;
+  font-size: 400% !important;
 }
 .pnac{
   margin-left: 85%;
