@@ -101,6 +101,7 @@ eCommApp.controller('detailCtrl',function($rootScope,$scope,$routeParams){
       // console.log(total);
     }
   };
+
 });
 // Création d'un controller 'articleCtrl'
 eCommApp.controller('panierCtrl', function($scope, $rootScope) {
@@ -199,13 +200,13 @@ function changeImage() {
 }
 // Fonction d'affichage du menu filtre
 function openNav() {
-    document.getElementById("sideNavigation").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-    document.getElementById("flc").style.display ="none";
+  document.getElementById("sideNavigation").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("flc").style.display ="none";
 }
 // Fonction de fermeture du menu filtre
 function closeNav() {
-    document.getElementById("sideNavigation").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-    document.getElementById("flc").style.display ="block";
+  document.getElementById("sideNavigation").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.getElementById("flc").style.display ="block";
 }

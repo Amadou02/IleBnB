@@ -36,9 +36,10 @@
         <li>Taille : {{taille}}</li>
         <li>Amménagé : {{ammenage}}</li>
         <li>Nationalité : {{Nationalite}}</li>
+        <li>Prix : {{(prix  | currency: " ") + "€"}}</li>
       </ul>
       <p>
-        <label for="quantity">Quantité
+        <label for="quantity">Quantité :
           <select class="quantity" name="quantity">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -47,7 +48,7 @@
             <option value="5">5</option>
           </select>
         </label>
-        <button type="button" ng-click="addCart()" class="btn btn-success">Ajouter panier</button>
+        <button type="button" ng-click="addCart()" class="btn">Ajouter panier</button>
         <a href="#!"><small>Retour</small></a>
         <a class="offset-11" href="#!/panier">Panier</a>
       </p>

@@ -5,7 +5,7 @@
     <span>{{message}}</span>
   </div> -->
   <div class="" ng-repeat="art in cartList">
-    <div class="row my-3 mx-3">
+    <div class="row my-3 mx-3 art{{$index}}">
       <div class="col-md-3">
         <!-- Image de l'article choisi -->
         <div class="text-center">
@@ -13,32 +13,44 @@
         </div>
       </div>
       <!-- Description de l'article choisi -->
-      <div class="col-md-4">
+      <div class=" d-block d-sm-flex">
+        <div class="">
+          <ul>
+            <li>Nom : {{art.nom}}</li>
+            <li>Lieu : {{art.lieu}}</li>
+            <li>Amménagé : {{art.ammenage}}</li>
+            <li>Nationalité : {{art.Nationalite}}</li>
+          </ul>
+        </div>
+        <div class="">
         <ul>
-          <li>Nom : {{art.nom}}</li>
-          <li>Lieu : {{art.lieu}}</li>
-          <li>Amménagé : {{art.ammenage}}</li>
-          <li>Nationalité : {{art.Nationalite}}</li>
-          <li>Prix : {{(art.prix | currency: " ") + " €"}}</li>
-          <li>Quantité : {{art.Quantite}}</li>
+          <li>Prix : {{(art.prix | currency: " ") + "€"}}</li>
+          <li>Quantité : {{art.Quantite}}
+            <button type="button" ng-click="minusCart($index)" class="btn minus">-</button>
+            <button type="button" ng-click="addCart($index)" class="btn add">+</button>
+          </li>
         </ul>
       </div>
+      </div>
+      <span class="offset-8 lesbtn">
+        <button type="button" ng-click="suppCart($index)" class="btn Supp">&times;</button>
+      </span>
       <!-- Bouton de modif -->
-      <div class="">
+      <!-- <div class="">
         <button type="button" ng-click="minusCart($index)" class="btn btn-primary">-</button>
         <button type="button" ng-click="addCart($index)" class="btn btn-success">+</button>
         <button type="button" ng-click="suppCart($index)" class="btn btn-danger">Supprimer article</button>
-      </div>
+      </div> -->
     </div>
     <hr></hr>
   </div>
   <span class="row" >
-    <span class="col-4 offset-8">
-      Total : {{(totalPanier | currency: " ") + " €"}}
+    <span class="text-center col-4 tt offset-7">
+      Total: {{(totalPanier | currency: " ") + "€"}}
     </span>
     <span class="col-4 offset-8">
-      <button type="button" ng-click="emptyCart()" class="btn btn-dark">Vider Panier</button>
-      <button type="button" ng-click="validCart()" class="btn btn-success">Valider Panier</button>
+      <button type="button" ng-click="emptyCart()" class="btn Vid">Vider Panier</button>
+      <button type="button" ng-click="validCart()" class="btn Conf">Confirmer Panier</button>
     </span>
   </span>
 </section>
