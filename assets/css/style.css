@@ -245,3 +245,15 @@ h1{
   color: black !important;
   text-decoration: none !important;
 }
+ul{
+  list-style: none !important;
+}
+a{
+  color: white !important;
+}
+li{
+  margin-top: 20px;
+}
+.pni{
+  height: 40px;
+}
