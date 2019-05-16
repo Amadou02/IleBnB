@@ -1,7 +1,10 @@
 <!-- partials/panier.html -->
 <section>
+  <div class="">
+    <span>{{message}}</span>
+  </div>
   <div class="" ng-repeat="art in cartList">
-    <div class="row my-3 mx-3">
+    <div class="row my-3 mx-3 art{{$index}}">
       <div class="col-md-3">
         <div class="text-center">
           <img id="mainImg" class="img-fluid rounded" src="{{art.img1}}" alt=""></img>
@@ -13,11 +16,25 @@
           <li>Lieu : {{art.lieu}}</li>
           <li>Amménagé : {{art.ammenage}}</li>
           <li>Nationalité : {{art.Nationalite}}</li>
-          <li>Prix : {{art.prix}}</li>
+          <li>Prix : {{(art.prix | currency: " ") + " €"}}</li>
+          <li>Quantité : {{art.Quantite}}</li>
         </ul>
+      </div>
+      <div class="">
+        <button type="button" ng-click="addCart($index)" class="btn btn-primary">-</button>
+        <button type="button" ng-click="minusCart($index)" class="btn btn-success">+</button>
+        <button type="button" ng-click="suppCart($index)" class="btn btn-danger">Supprimer article</button>
       </div>
     </div>
     <hr></hr>
   </div>
-  Total : {{total}}
+  <span class="row" >
+    <span class="col-4 offset-8">
+      Total : {{(totalPanier | currency: " ") + " €"}}
+    </span>
+    <span class="col-4 offset-8">
+      <button type="button" ng-click="emptyCart()" class="btn btn-dark">Vider Panier</button>
+      <button type="button" ng-click="validCart()" class="btn btn-success">Valider Panier</button>
+    </span>
+  </span>
 </section>

@@ -35,12 +35,20 @@
         <li>Nationalité : {{Nationalite}}</li>
       </ul>
       <p>
+        <label for="quantity">Quantité
+          <select class="quantity" name="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </label>
         <button type="button" ng-click="addCart()" class="btn btn-success">Ajouter panier</button>
         <!-- <button href="#!" type="button" class="btn btn-secondary">Retour</button> -->
         <a href="#!"><small>Retour</small></a>
         <a class="offset-11" href="#!/panier">Panier</a>
       </p>
     </div>
-  </div>
   </div>
 </section>

@@ -10,7 +10,7 @@
             <p class="card-text">{{x.descCourte}}</p>
           </div>
           <div class="card-footer">
-            <span class="card-text">Prix : {{x.prix}}</span><span> €</span>
+            <span class="card-text">Prix : {{x.prix | currency : ""}}</span><span> €</span>
           </div>
         </div>
       </a>
