@@ -1,9 +1,9 @@
 .fxd{
-position: fixed;
-top: 0;
-right: 0;
-left: 0;
-margin-top: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 300px;
 }
 .jmt{
   color: white;
@@ -37,51 +37,51 @@ margin-top: 300px;
 /* le volet ici */
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color:#d1b17e; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    border: 2px solid white;
-    border-radius: 0px 10px 10px 0px;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color:#d1b17e; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  border: 2px solid white;
+  border-radius: 0px 10px 10px 0px;
 }
 
 /* The navigation menu links */
 .sidenav .p {
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-    margin-bottom: 10px !important;
-    margin-left: 15px !important;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 10px !important;
+  margin-left: 15px !important;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav .p:hover, .offcanvas .p:focus{
-    color: grey;
+  color: grey;
 }
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-    transition: margin-left .5s;
-    padding: 20px;
-    overflow:hidden;
-    width:100%;
+  transition: margin-left .5s;
+  padding: 20px;
+  overflow:hidden;
+  width:100%;
 }
 body {
   overflow-x: hidden;
@@ -90,25 +90,25 @@ body {
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4CAF50;
+  color: white;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 a svg{
@@ -167,13 +167,13 @@ h4{
 }
 
 .footer{
-    font-size: 15px;
-    padding-top: 20px;
-    margin-left: 30px;
+  font-size: 15px;
+  padding-top: 20px;
+  margin-left: 60px;
 }
 
 h1{
-    font-size: 15px !important;
+  font-size: 15px !important;
 }
 
 .backgr{
@@ -184,7 +184,7 @@ h1{
   margin-left: 7% !important;
 }
 #world{
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 #reseaux{
@@ -203,13 +203,13 @@ h1{
 }
 
 #paid{
-    height:50px;
-    width: 50px;
+  height:50px;
+  width: 50px;
 }
 
 #flag{
-    height:40px;
-    width: 30px;
+  height:40px;
+  width: 30px;
 }
 .card
 {
@@ -237,7 +237,7 @@ ul{
 }
 
 a{
-  outline: none !important;
+  text-decoration: none;
   color: white !important;
 }
 
@@ -246,9 +246,9 @@ a{
   color: black !important;
 }
 
- .flot{
-   font-size: 300% !important;
- }
+.flot{
+  font-size: 300% !important;
+}
 
 h2{
   font-size: 450% !important;
@@ -260,9 +260,83 @@ h2{
   font-size: 150% !important;
   color: #014E8C !important;
   padding-right: 20px;
+  outline: none !important;
 }
 
 .Pn{
   font-size: 150% !important;
   color: #014E8C !important;
+  outline: none !important;
+}
+.lesbtn{
+  margin-left: 80%;
+}
+.Conf{
+  color: #014E8C !important;
+}
+.Vid{
+  color: #E40F01 !important;
+}
+.add{
+  color: #014E8C !important;
+}
+.minus{
+  color: #014E8C !important;
+}
+.Supp{
+  color: #E40F01 !important;
+}
+@media all and (max-width: 740px){
+  .pnac{
+    margin-left: 70%;
+  }
+  #flc{
+    height: 30px;
+    cursor: pointer;
+    margin-top: 185px;
+    /* z-index: 1; */
+  }
+  .Conf{
+    width: 200px;
+    margin-left: -100px;
+    margin-top: 10px ;
+  }
+  .Vid{
+    width: 200px;
+    margin-left: -100px;
+    margin-top: 10px ;
+  }
+  .tt{
+    margin-left: -100px;
+    width: 200px;
+  }
+  .lesbtn{
+    margin-left: -10px;
+  }
+}
+@media all and (max-width: 1024px){
+  .pnac{
+    margin-left: 70%;
+  }
+  #flc{
+    height: 30px;
+    cursor: pointer;
+    margin-top: 185px;
+    /* z-index: 1; */
+  }
+  .Conf{
+    width: 200px;
+    margin-top: 10px ;
+  }
+  .Vid{
+    width: 200px;
+    margin-top: 10px ;
+  }
+  .tt{
+    margin-left: -100px;
+    width: 200px;
+  }
+  .lesbtn{
+    margin-left: -10px;
+  }
 }

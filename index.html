@@ -14,6 +14,7 @@
   <title>IleBnB : une ile pour vous !</title>
 </head>
 <body>
+
   <header>
     <!-- Pour crée un jumbotron pour l'accueil du site avec sont nom -->
     <div class="jmt container-fluid">
@@ -35,57 +36,8 @@
     <div ng-view></div>
   </div>
 
-  <main>
-    <div id="sideNavigation" class="text-white sidenav">
-      <a href="javascript:void(0)" class="text-white closebtn" onclick="closeNav()">&times;</a>
-      <h4 class="text-center text-white">Les Océans</h4>
-      <hr>
-      <div>
-        <ul>
-          <li>
-            <a href="#!/articles/Pacifique">Océan Pacifique</a>
-          </li>
-          <li>
-            <a href="#!/articles/Atlantique">Océan Atlantique</a>
-          </li>
-          <li>
-            <a href="#!/articles/Indien">Océan Indien</a>
-          </li>
-          <li>
-            <a href="#!/articles/Océan Antartique">Océan Antarctique</a>
-          </li>
-          <li>
-            <a href="#!/articles/Océan Arctique">Océan Arctique</a>
-          </li>
-        </ul>
-      </div>
-      <hr class="hr">
-      <h4 class="text-center text-white">Type D'Île</h4>
-      <div>
-        <ul>
-          <li>
-            <a href="#!/articles/Vierge">Île vierge</a>
-          </li>
-          <li>
-            <a href="#!/articles/Construction">Île avec construction</a>
-          </li>
-          <li>
-            <a href="#!/articles/Gourmande">Île gourmande</a>
-          </li>
-        </ul>
-    </div>
-
-    <nav class="fxd topnav">
-      <img id="flc" class="position-absolute" onclick="openNav()" src="assets/img/fleche.png" alt="">
-    </nav>
-
-    <div id="main">
-      <!-- Add all your websites page content here  -->
-    </div>
-  </main>
-
-  <footer class="mt-5 backgr text-white text-center">
-    <div class="txt container-fluid row">
+  <footer class="mt-5 backgr text-white">
+    <div class=" container-fluid row">
       <div class="footer">
         <h1>SERVICES ET GARANTIES</h1>
         <p>Garanties et assurances</p>
@@ -146,6 +98,7 @@
       © 2019, Île BnB Corporation
     </div>
   </footer>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
